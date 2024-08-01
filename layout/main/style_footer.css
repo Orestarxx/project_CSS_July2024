@@ -1,0 +1,72 @@
+footer{
+    margin-top: 262px;
+    width: 1063px;
+    height: 350px;
+}
+footer>nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer>nav>ul{
+    list-style-type: none;
+}
+footer>nav>ul>li:first-child{
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer>nav>ul>li:nth-child(1n+2){
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.news_latter{
+    width: 253px;
+    height: 60px;
+    margin-top: 9px;
+    border-radius: 50px;
+    background: #3B7C70;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit{
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    margin:1px 0 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.email{
+    width: 153px;
+    height: 60px;
+    background: #3B7C70;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
+.email::placeholder{
+    color: #FFF;
+    padding-left: 12px;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
