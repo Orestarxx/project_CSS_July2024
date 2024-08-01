@@ -5,10 +5,10 @@
     display: flex;
     align-items:center;
     flex-direction: column;
+    font-family: "Outfit", sans-serif;
 }
 .forth_section>p{
     color: #5BD2BF;
-    font-family: "Outfit",sans-serif;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -18,7 +18,6 @@
     height: 152px;
     color: #FFF;
     text-align: center;
-    font-family: "Outfit",sans-serif;
     font-size: 60px;
     font-weight: 700;
     text-transform: capitalize;
@@ -46,14 +45,13 @@
     height: 150px;
     top: -75px;
     left: 100px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 .forth_section>div:first-of-type>div>h2{
     width: 327px;
     color: #FFF;
     text-align: center;
-    font-family: "Outfit",sans-serif;
     font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
@@ -64,7 +62,6 @@
     height: 125px;
     color: #FFF;
     text-align: center;
-    font-family: "Outfit",sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
@@ -86,10 +83,9 @@
     height: 180px;
     color: #FFF;
     text-align: center;
-    font-family: "Outfit",sans-serif;
     font-size: 60px;
     font-weight: 700;
-    line-height: 60px; /* 100% */
+    line-height: 60px;
     margin-top: 24px;
 }
 .bottom_box_forth_section>button {
@@ -99,11 +95,10 @@
     background: #000;
     color: #FFF;
     text-align: center;
-    font-family: "Outfit", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 150% */
+    line-height: 60px;
     text-transform: uppercase;
     margin:34px 360px 50px 360px;
 }

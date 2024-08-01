@@ -62,7 +62,7 @@
     color: #FFF;
     font-size: 60px;
     font-weight: 700;
-    line-height: 73px; /* 121.667% */
+    line-height: 73px;
 }
 .NFT{
     color: #56CAB1;
@@ -78,7 +78,7 @@
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 31px; /* 119.231% */
+    line-height: 31px;
     margin-left: 0;
 }
 .last_div_of_second_section>div:last-child>h2{
@@ -167,7 +167,6 @@
     margin-bottom: 20px;
     gap: 18px;
 }
-
 .info_holder>div>p{
     color: #FFF;
     font-family: "Outfit",sans-serif;
