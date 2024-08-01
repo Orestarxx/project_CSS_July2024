@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+/*------- second section -------*/
+.second_section{
+    width: 1065px;
+    height: 1044px;
+}
+/*------ first division -------*/
+.first_div_of_second_section{
+    width: 1065px;
+    margin-bottom: 197px;
+}
+.first_div_of_second_section>nav{
+    width: 1065px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first_div_of_second_section>h1{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+}
+.first_div_of_second_section>nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    opacity: 0.5;
+    list-style-type: none;
+}
+/*------ last division ------*/
+.second_section>div:last-child{
+    border: 1px solid;
+    height: 634px;
+    display: flex;
+}
+.last_div_of_second_section>div{
+    width: 542px;
+    height: 634px;
+    border: 1px solid;
+    margin-left: 0;
+}
+.last_div_of_second_section>img{
+    width: 428px;
+    height: 480px;
+    flex-shrink: 0;
+    margin: 59px 55px 0 0;
+}
+.last_div_of_second_section>div:last-child>h1{
+    width: 542px;
+    height: 219px;
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+.NFT{
+    color: #56CAB1;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+}
+.last_div_of_second_section>div:last-child>p{
+    width: 521px;
+    height: 62px;
+    color: #4C99BB;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+    margin-left: 0;
+}
+.last_div_of_second_section>div:last-child>h2{
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 0;
+}
+
+.last_div_of_second_section>div:last-child>h2>svg:first-of-type{
+    position: absolute;
+    bottom: 25px;
+
+}
+.last_div_of_second_section>div:last-child>h2>svg:last-of-type{
+    position: absolute;
+}
+.sale_price{
+    padding-left: 62px;
+}
+.high_price{
+    padding-right: 18px;
+}
+/*------ button for sale ------*/
+
+.buy_for_sale_button{
+    width: 180px;
+    height: 68px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: none;
+    border: 1px solid #56CAB1;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    margin-top: 13px;
+}
+
+.buy_for_sale_button::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border-radius: inherit;
+    box-shadow: 0 0 0 1px , 0 0.625em 0 0 #56CAB1;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+.buy_for_sale_button:hover {
+    background: none;
+    transform: translate(0, 0.25em);
+}
+.buy_for_sale_button::before {
+    box-shadow: 0 0 0 2px #56CAB1, 0 0.5em 0 0 #56CAB1;
+    transform: translate3d(0, 0.5em, -1em);
+}
+/*--------------------*/
+.last_div_of_second_section>div>div:last-child{
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    margin-top: 76px;
+    display: flex;
+}
+.info_holder>div{
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    gap: 18px;
+}
+
+.info_holder>div>p{
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
