@@ -1,0 +1,136 @@
+.third_section{
+    width: 1065px;
+    height: 581px;
+    margin-top: 221px;
+    display: flex;
+}
+/*------ third section div one -------*/
+.third_section_division_one{
+    width: 465px;
+    height: 581px;
+    margin-right: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+.third_section_division_one>h1{
+    width: 100%;
+    height: 212px;
+    color: #FFF;
+    font-family: "Outfit",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.third_section_division_one>button{
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-family: "Outfit",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 74px;
+    margin-left: 0;
+}
+/*------ third section div two -----*/
+.third_section_division_two{
+    width: 374px;
+    height: 581px;
+}
+.first_card{
+    width: 375px;
+    height: 507px;
+    margin-bottom: 74px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    position: relative;
+    z-index: 1;
+
+}
+.first_card>img{
+    border-radius: 5px;
+    width: 100%;
+    height: 358px;
+}
+.second_card{
+    width: 380px;
+    height: 467px;
+    transform: rotate(-25.337deg);
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    top: -660px;
+    right: 270px;
+    mix-blend-mode: screen;
+}
+.wrap_card_two{
+    position: relative;
+}
+.second_card>img{
+    width:100%;
+    height: 323px;
+}
+.second_card>div:first-of-type>h2,
+.first_card>div:first-of-type>h2{
+    width: 229px;
+    height: 50px;
+    color: #56CAB1;
+    text-shadow:
+            1px  1px 2px black,
+            1px -1px 2px black,
+            -1px  1px 2px black,
+            -1px -1px 2px black;
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin:12px 123px 15px 29px;
+}
+.second_card>div:last-child,
+.first_card>div:last-child{
+    width: 100%;
+    display: flex;
+}
+.second_card>div:last-child>h2,
+.first_card>div:last-child>h2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.second_card>div:last-child>div,
+.first_card>div:last-child>div{
+    width: 147px;
+    height: 51px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #52A7C6;
+    -webkit-text-stroke-color: #02061A;
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.of{
+    color: #23263C;
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
