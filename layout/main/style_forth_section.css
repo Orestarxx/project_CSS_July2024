@@ -1,0 +1,109 @@
+.forth_section{
+    margin-top: 234px;
+    width: 1063px;
+    height: 1311px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.forth_section>p{
+    color: #5BD2BF;
+    font-family: "Outfit",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.forth_section>h1{
+    width: 427px;
+    height: 152px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.forth_section>div:first-of-type{
+    width: 1063px;
+    height: 360px;
+    gap: 14px;
+    display: flex;
+    margin-top: 147px;
+}
+.forth_section>div:first-of-type>div{
+    width: 345px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #24293F;
+}
+.forth_section>div:first-of-type>div>img{
+    border-radius: 100%;
+    position: absolute;
+    height: 150px;
+    top: -75px;
+    left: 100px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.forth_section>div:first-of-type>div>h2{
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 83px 9px 27px 9px ;
+}
+.forth_section>div:first-of-type>div>p{
+    width: 302px;
+    height: 125px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 75px;
+}
+/*-------- bottom box --------*/
+.bottom_box_forth_section{
+    margin-top: 208px;
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom_box_forth_section>h1{
+    width: 321px;
+    height: 180px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    margin-top: 24px;
+}
+.bottom_box_forth_section>button {
+    width: 344px;
+    height: 85px;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    margin:34px 360px 50px 360px;
+}
